@@ -6,7 +6,6 @@ import UrgencyNumbers from './components/UrgencyNumbers';
 import JoinSection from './components/JoinSection';
 import AboutSection from './components/AboutSection';
 import FrameworkSection from './components/FrameworkSection'; */
-import ContactSection from './components/ContactSection'; 
 import Footer from './components/Footer';
 
 function App() {
