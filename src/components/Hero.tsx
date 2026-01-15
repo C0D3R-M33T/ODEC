@@ -51,15 +51,18 @@ const Hero: React.FC = () => {
         <p className="my-6 max-w-xl text-center text-base md:text-lg">
           Introducing <strong>Orbital Data Ethics Council — ODEC</strong>.
         </p>
-        <motion.button
+        <motion.a
           style={{ border, boxShadow }}
           whileHover={{ scale: 1.015 }}
           whileTap={{ scale: 0.985 }}
           className="group relative flex w-fit items-center gap-1.5 rounded-full bg-gray-950/10 px-4 py-2 text-gray-50 hover:bg-gray-950/50"
+          href="/ODEC%20White%20Paper.pdf"
+          target="_blank"
+          rel="noreferrer"
         >
           Read our Proposal version 0.1
           <FiArrowRight className="transition-transform group-hover:-rotate-45 group-active:-rotate-12" />
-        </motion.button>
+        </motion.a>
       </div>
 
       <div className="absolute inset-0 z-0">
